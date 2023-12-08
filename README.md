@@ -90,6 +90,9 @@ Select the matching rows button (two red matches on the top toolbar). In the 'Ma
 
 Repeat 3.1), instead using GAIA EDR3 as the remote table and the table generated in 3.2) as the local table. Repeat 3.2), instead setting table 1 and 2 to be the GAIA EDR3 crossmatch table just generated, with table 1 using the RA and DEC columns in degrees, and the positional uncertainty column in arcseconds, and table 2 using the ra_epoch2000 and dec_epoch2000 columns in degrees, and the positional uncertainty column in arcseconds. Generate the new table containing 89 objects.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/9f9a251d-f00f-456c-8a2e-a0411512f5c9)
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/e0834a3d-9c3e-4b73-bf8a-58b35bdea247)
+
 3.4) Remove anything within 5 arcseconds of a PANSTARRS DR1 source.
 
 Repeat 3.1), instead using PANSTARRS DR1 as the remote table and the table generated in 3.3) as the local table. Using the matching rows button in the toolbar, select the 'Sky' algorithm with a maximum error of 5 arcseconds. Set table 1 and 2 to be the crossmatch table just generated, with table 1 using the RA and DEC columns, and table 2 using the RAJ2000 and DEJ2000 columns. Set the join type to '1 not 2' and generate the new table containing 72 objects.
