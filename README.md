@@ -72,6 +72,8 @@ This filtered data set can now be exported for further analysis in TOPCAT. You c
 
 Download the outputted Python FITS file onto TOPCAT by selecting 'Open new table' in the top left corner, then 'System browser', and select the FITS file.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/97892d8c-ff75-41de-ac9c-ff99569c64fb)
+
 3.1) Remove any object within 3 arcminutes of an SDSS DR16 source. 
 
 Select 'Sky crossmatch' (the blue cross on the top toolbar). Select SDSS DR16 as the remote table, and the imported FITS file as the local table, with 'RA' and 'DEC' selected in units of degrees. In the 'Match Parameters' section, set a radius of 3 arcminutes, with 'Best' selected as the mode. All other variables leave as default. Select 'Go' and TOPCAT will filter out data within these established parameters. A new table will be generated on the TOPCAT page on the left-hand side containing 4022 objects.
