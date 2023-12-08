@@ -111,6 +111,8 @@ Select the VO drop-down menu at the top of the TOPCAT page, then click the 'Vizi
 
 In matching rows, select the 'Sky' algorithm with a maximum error of 10 arcseconds. Set table 1 to be the table generated in 3.4), using the RA and DEC columns, and set table 2 to be the 'I_259_tyc2' table imported from VizieR, using the _RAJ2000 and _DEJ2000 columns. Set the join type to be '1 not 2', and generate the new table containing 67 objects.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/8b2444f3-2f42-4c3a-bd20-f8b6d0048ae8)
+
 3.7) Accessing the Veron-Cetty survey.
 
 Repeat 3.5), instead searching by keyword for Veron-Cetty, selecting the one with the name VII/258 'Quasars and Active Galactice Nuclei (13th Ed.)(Veron+ 2010)'. This may take several minutes to upload onto TOPCAT.
