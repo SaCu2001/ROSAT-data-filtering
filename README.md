@@ -97,6 +97,9 @@ Repeat 3.1), instead using GAIA EDR3 as the remote table and the table generated
 
 Repeat 3.1), instead using PANSTARRS DR1 as the remote table and the table generated in 3.3) as the local table. Using the matching rows button in the toolbar, select the 'Sky' algorithm with a maximum error of 5 arcseconds. Set table 1 and 2 to be the crossmatch table just generated, with table 1 using the RA and DEC columns, and table 2 using the RAJ2000 and DEJ2000 columns. Set the join type to '1 not 2' and generate the new table containing 72 objects.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/21cd333b-d301-4697-b05b-b2d763f0f20d)
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/886cce81-71cc-400c-90be-853825193740)
+
 3.5) Accessing the TYCHO-2 survey.
 
 Select the VO drop-down menu at the top of the TOPCAT page, then click the 'VizieR Catalogue Service'. In 'Row Selection', ensure that 'All Rows' is selected, and that the maximum row count in unlimited. In 'Catalogue Selection', search by keyword for TYCHO-2, and select the one with name I/259 'The TYCHO-2 Catalogue'. Then click 'OK' at the bottom of the page. Be aware that this is a large catalogue and will take several minutes to upload onto TOPCAT.
