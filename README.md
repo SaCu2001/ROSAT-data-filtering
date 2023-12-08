@@ -131,6 +131,6 @@ Repeat 3.6), instead selecting Table 1 as the one generated in 3.8), using the R
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/09e815fd-764f-4f88-9d77-4de0919c713d)
 
-This is the list of potential XDIN candidates for further study. Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 57 objects by comparing the RA and DEC of these 57 condidates with that of the Magnificent 7 XDINS:
+This is the list of potential XDIN candidates for further study. Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 56 objects by comparing their RA and DEC with that of the Magnificent 7 known XDINS:
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filters/assets/148392974/54ed6570-0f38-4c99-bdb8-fe2ba7b589cf)
