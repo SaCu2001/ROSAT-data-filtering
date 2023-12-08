@@ -127,7 +127,7 @@ Repeat 3.6), instead selecting table 1 to be the one generated in 3.6), using th
 
 3.9) Removes any object within 10 arcseconds of a TYCHO-1 and Hipparcos source that is not included in the TYCHO-2 catalog
 
-Repeat 3.6), instead selecting Table 1 as the one generated in 3.8), using the RA and DEC columns, and selecting Table 2 to be the 'l_259_suppl_1' table from VizieR when importing TYCHO-2, using the _RAJ2000 and _DEJ2000 columns. Generate the new table containing 56 objects
+Repeat 3.6), instead selecting Table 1 as the one generated in 3.8), using the RA and DEC columns, and selecting Table 2 to be the 'l_259_suppl_1' table from VizieR when importing TYCHO-2, using the _RAJ2000 and _DEJ2000 columns. Generate the new table containing 56 objects.
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/09e815fd-764f-4f88-9d77-4de0919c713d)
 
