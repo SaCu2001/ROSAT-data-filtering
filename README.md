@@ -84,6 +84,8 @@ Select 'Sky crossmatch' (the blue cross on the top toolbar). Select SDSS DR16 as
 
 Select the matching rows button (two red matches on the top toolbar). In the 'Match criteria' section, select the 'Sky with errors' algorithm and set the scale to 10 arcminutes. Select the table produced in part 3.1) in both the 'Table 1' and 'Table 2' sections. In Table 1, select the RA and DEC columns with units of degrees, and the positional uncertainty column with units of arcseconds. In Table 2, select the RA_ICRS and DE_ICRS columns with units of degrees, and the positional uncertainty column with units of arcseconds. In the 'Output Rows' section, change the join type to be '1 not 2', then click 'Go' at the bottom to generate a new table containing 172 objects.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/1cf02ea3-5779-4d11-a411-3e15f647145f)
+
 3.3) Remove anything within 2x its positional uncertainty of a GAIA EDR3 source. 
 
 Repeat 3.1), instead using GAIA EDR3 as the remote table and the table generated in 3.2) as the local table. Repeat 3.2), instead setting table 1 and 2 to be the GAIA EDR3 crossmatch table just generated, with table 1 using the RA and DEC columns in degrees, and the positional uncertainty column in arcseconds, and table 2 using the ra_epoch2000 and dec_epoch2000 columns in degrees, and the positional uncertainty column in arcseconds. Generate the new table containing 89 objects.
