@@ -117,6 +117,8 @@ In matching rows, select the 'Sky' algorithm with a maximum error of 10 arcsecon
 
 Repeat 3.5), instead searching by keyword for Veron-Cetty, selecting the one with the name VII/258 'Quasars and Active Galactice Nuclei (13th Ed.)(Veron+ 2010)'. This may take several minutes to upload onto TOPCAT.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/b20b9af0-a4fc-4184-9d34-530903d6352d)
+
 3.8) Removing anything within 10 arcseconds of a Veron-Cetty source.
 
 Repeat 3.6), instead selecting table 1 to be the one generated in 3.6), using the RA and DEC columns, and selecting table 2 to be the 'VII_258_vv10' table imported from VizieR, using the _RAJ2000 and DEJ2000 columns. Generate the new table cotaining 57 objects. 
