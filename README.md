@@ -104,6 +104,9 @@ Repeat 3.1), instead using PANSTARRS DR1 as the remote table and the table gener
 
 Select the VO drop-down menu at the top of the TOPCAT page, then click the 'VizieR Catalogue Service'. In 'Row Selection', ensure that 'All Rows' is selected, and that the maximum row count in unlimited. In 'Catalogue Selection', search by keyword for TYCHO-2, and select the one with name I/259 'The TYCHO-2 Catalogue'. Then click 'OK' at the bottom of the page. Be aware that this is a large catalogue and will take several minutes to upload onto TOPCAT.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/0afeb747-733f-448f-9126-afc81149be73)
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/84b481c7-b91c-4a48-9f42-823d5ed76bc3)
+
 3.6) Remove anything within 10 arcseconds of a TYCHO-2 source.
 
 In matching rows, select the 'Sky' algorithm with a maximum error of 10 arcseconds. Set table 1 to be the table generated in 3.4), using the RA and DEC columns, and set table 2 to be the 'I_259_tyc2' table imported from VizieR, using the _RAJ2000 and _DEJ2000 columns. Set the join type to be '1 not 2', and generate the new table containing 67 objects.
