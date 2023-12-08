@@ -121,7 +121,9 @@ Repeat 3.5), instead searching by keyword for Veron-Cetty, selecting the one wit
 
 3.8) Removing anything within 10 arcseconds of a Veron-Cetty source.
 
-Repeat 3.6), instead selecting table 1 to be the one generated in 3.6), using the RA and DEC columns, and selecting table 2 to be the 'VII_258_vv10' table imported from VizieR, using the _RAJ2000 and DEJ2000 columns. Generate the new table cotaining 57 objects. 
+Repeat 3.6), instead selecting table 1 to be the one generated in 3.6), using the RA and DEC columns, and selecting table 2 to be the 'VII_258_vv10' table imported from VizieR, using the _RAJ2000 and _DEJ2000 columns. Generate the new table cotaining 57 objects. 
+
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/842914a8-c07e-4d4f-a03a-b801d5b1327b)
 
 This is the list of potential XDIN candidates for further study. Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 57 objects by comparing the RA and DEC of these 57 condidates with that of the Magnificent 7 XDINS:
 
