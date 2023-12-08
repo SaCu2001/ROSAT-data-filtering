@@ -78,6 +78,8 @@ Download the outputted Python FITS file onto TOPCAT by selecting 'Open new table
 
 Select 'Sky crossmatch' (the blue cross on the top toolbar). Select SDSS DR16 as the remote table, and the imported FITS file as the local table, with 'RA' and 'DEC' selected in units of degrees. In the 'Match Parameters' section, set a radius of 3 arcminutes, with 'Best' selected as the mode. All other variables leave as default. Select 'Go' and TOPCAT will filter out data within these established parameters. A new table will be generated on the TOPCAT page on the left-hand side containing 4022 objects.
 
+![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/7dcdc5f5-9213-4aee-be2d-231ee8d8e7f3)
+
 3.2) Remove anything within 2x its positional uncertainty of an SDSS DR16 source. 
 
 Select the matching rows button (two red matches on the top toolbar). In the 'Match criteria' section, select the 'Sky with errors' algorithm and set the scale to 10 arcminutes. Select the table produced in part 3.1) in both the 'Table 1' and 'Table 2' sections. In Table 1, select the RA and DEC columns with units of degrees, and the positional uncertainty column with units of arcseconds. In Table 2, select the RA_ICRS and DE_ICRS columns with units of degrees, and the positional uncertainty column with units of arcseconds. In the 'Output Rows' section, change the join type to be '1 not 2', then click 'Go' at the bottom to generate a new table containing 172 objects.
