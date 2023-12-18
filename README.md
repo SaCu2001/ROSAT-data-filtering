@@ -70,7 +70,9 @@ This filtered data set can now be exported for further analysis in TOPCAT. You c
 
 3) Applying filters in TOPCAT - removing known objects from other all-sky surveys.
 
-Download the outputted Python FITS file onto TOPCAT by selecting 'Open new table' in the top left corner, then 'System browser', and select the FITS file.
+Download TOPCAT by using the following link: https://www.star.bris.ac.uk/~mbt/topcat/. From here, scroll down to the downloads section and select either the 'topcat-full.jar' Standard Version under the Standalone Jar File subheading if you have Windows or Linux, or if you have MacOS select 'topcat-all.dmg' under the MacOS subheading. If you run into any trouble when attempting to access TOPCAT, check that you have the newest version of JAVA installed and that there are not multiple versions installed either, as this can cause issues with the running of TOPCAT.
+
+Once installed, download the outputted Python FITS file onto TOPCAT by selecting 'Open new table' in the top left corner, then 'System browser', and select the FITS file.
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/97892d8c-ff75-41de-ac9c-ff99569c64fb)
 
@@ -134,3 +136,5 @@ Repeat 3.6), instead selecting Table 1 as the one generated in 3.8), using the R
 This is the list of potential XDIN candidates for further study. Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 56 objects by comparing their RA and DEC with that of the Magnificent 7 known XDINS:
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filters/assets/148392974/54ed6570-0f38-4c99-bdb8-fe2ba7b589cf)
+
+If you run into any issues, have any queries, or spot any mistakes, I am contactable on sac48@sussex.ac.uk.
