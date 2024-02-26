@@ -76,7 +76,7 @@ Once installed, download the outputted Python FITS file onto TOPCAT by selecting
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/97892d8c-ff75-41de-ac9c-ff99569c64fb)
 
-3.1) Remove any object within 3 arcminutes of an SDSS DR16 source. 
+3.1) Remove any object not within 3 arcminutes of an SDSS DR16 source. 
 
 Select 'Sky crossmatch' (the blue cross on the top toolbar). Select SDSS DR16 as the remote table, and the imported FITS file as the local table, with 'RA' and 'DEC' selected in units of degrees. In the 'Match Parameters' section, set a radius of 3 arcminutes, with 'Best' selected as the mode. All other variables leave as default. Select 'Go' and TOPCAT will filter out data within these established parameters. A new table will be generated on the TOPCAT page on the left-hand side containing 4022 objects.
 
@@ -133,8 +133,16 @@ Repeat 3.6), instead selecting Table 1 as the one generated in 3.8), using the R
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filtering/assets/148392974/09e815fd-764f-4f88-9d77-4de0919c713d)
 
-This is the list of potential XDIN candidates for further study. Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 56 objects by comparing their RA and DEC with that of the Magnificent 7 known XDINS:
+Finally, check that the 3 known XDINS within the SDSS all-sky survey are remaining in the generated list of 56 objects by comparing their RA and DEC with that of the Magnificent 7 known XDINS:
 
 ![image](https://github.com/SaCu2001/ROSAT-data-filters/assets/148392974/54ed6570-0f38-4c99-bdb8-fe2ba7b589cf)
+
+4) Removing saturated images
+
+In this list of 56 objects there are several images which appear saturated on the SDSS image viewer. These objects need to be removed as they are not viable candidates
+
+4.1) Getting magnitude columns for each object
+
+Perform a crossmatch
 
 If you run into any issues, have any queries, or spot any mistakes, I am contactable on sac48@sussex.ac.uk.
