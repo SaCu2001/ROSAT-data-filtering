@@ -21,7 +21,9 @@ Open a new Python document, and write the following code:
 
 Open and access the FITS file downloaded previously, you can do this as follows:
 
-    fits_file_path = "[insert the file directory here]"
+    fits_file_path = "[insert the file directory here, plus a filename here]"
+    #fits_file_path = "/Users/akr23/newfile.fits" #if you don't know how to find the directory path, ask for help
+    
     initial_data = fits.open(fits_file_path)
     data = initial_data[1].data
 
